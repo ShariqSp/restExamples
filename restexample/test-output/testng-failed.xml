@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="admin.AdminApiTests">
+        <methods>
+          <include name="testAdminLogin" invocation-numbers="0 1 33 19 36 38 23 8 42 12"/>
+          <include name="testAddAdmin" invocation-numbers="0 1 33 19 36 38 23 8 42 12"/>
+        </methods>
+      </class> <!-- admin.AdminApiTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
