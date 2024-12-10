@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class RestAssuredTestNG {
+public class RestAssuredTestNGTest {
 
     private static String token;
 

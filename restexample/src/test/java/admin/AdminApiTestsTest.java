@@ -12,7 +12,7 @@ import java.io.IOException;
 
 import static io.restassured.RestAssured.*;
 
-public class AdminApiTests {
+public class AdminApiTestsTest {
 
    
 

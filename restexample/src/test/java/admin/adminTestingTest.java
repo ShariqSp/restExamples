@@ -7,7 +7,7 @@ import java.util.Base64;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 
-public class adminTesting {
+public class adminTestingTest {
 	 @Test
      public void testAddAdmin() {
 			JSONObject bodyContent = new JSONObject();

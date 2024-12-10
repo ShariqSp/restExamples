@@ -2,7 +2,7 @@ package example;
 
 import java.util.Random;
 
-public class userData 
+public class userDataTest 
 {
 	private String username="testingggg";
 	private String email="shariq@gmail.com";

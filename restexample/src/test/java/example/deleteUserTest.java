@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.*;
 
-public class deleteUser 
+public class deleteUserTest 
 {
    @Test
    void deleteUser()

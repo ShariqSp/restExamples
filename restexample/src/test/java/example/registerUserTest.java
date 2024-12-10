@@ -6,12 +6,12 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 
 
-public class registerUser 
+public class registerUserTest
 {
    @Test
    public void RegisterUser()
    {
-	   userData ud = new userData();
+	   userDataTest ud = new userDataTest();
 	   JSONObject bodyContent = new JSONObject();
 	   bodyContent.put("id", ud.getId());
 	   bodyContent.put("username", ud.getUsername());

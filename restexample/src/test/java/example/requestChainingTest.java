@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
 
-public class requestChaining {
+public class requestChainingTest {
 	@Test
 	void requestTest()
 	{

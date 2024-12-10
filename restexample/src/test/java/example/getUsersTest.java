@@ -7,7 +7,7 @@ package example;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
     
-    public class getUsers {
+    public class getUsersTest {
     
     	@Test
     	public void testGetAllUsers() {

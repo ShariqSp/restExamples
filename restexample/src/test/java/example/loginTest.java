@@ -1,15 +1,16 @@
 package example;
 
+import static io.restassured.RestAssured.given;
+
 import org.json.JSONObject;
 import org.testng.annotations.Test;
-import static io.restassured.RestAssured.*;
-public class login {
+public class loginTest {
 	
 	
 	@Test
 	void testLogin()
 	{
-		userData ud = new userData();
+		userDataTest ud = new userDataTest();
 		JSONObject bodyContent = new JSONObject();
 		bodyContent.put("username", ud.getUsername());
 		bodyContent.put("password", ud.getPassword());
