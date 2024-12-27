@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="admin.AdminApiTests">
+      <class name="admin.MyTest">
         <methods>
-          <include name="testAdminLogin" invocation-numbers="0 1 33 19 36 38 23 8 42 12"/>
-          <include name="testAddAdmin" invocation-numbers="0 1 33 19 36 38 23 8 42 12"/>
+          <include name="testMethod1"/>
         </methods>
-      </class> <!-- admin.AdminApiTests -->
+      </class> <!-- admin.MyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
